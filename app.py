@@ -106,7 +106,7 @@ fig = px.bar(
     title="Product Wise Sales"
 )
 st.plotly_chart(fig, use_container_width=True)
-streamlit
+
 st.plotly_chart(fig3, use_container_width=True)
 csv = df.to_csv(index=False).encode("utf-8")
 
